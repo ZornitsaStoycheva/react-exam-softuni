@@ -1,0 +1,25 @@
+.section-no-found {
+    margin: 0 auto;
+    padding: 2em;
+    max-width: 1100px;
+    min-height: 100vh;
+}
+
+.media-404 {
+    text-align: center;
+    color: #ccc;
+    position: relative;
+    margin-top: 5em;
+}
+
+.media-404 h1 {
+    font-size: 20em;
+}
+
+.media-404 p {
+    font-size: 20px;
+    padding: 0;
+    position: absolute;
+    bottom: 20px;
+    left: 457px;
+}

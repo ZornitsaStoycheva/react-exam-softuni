@@ -1,0 +1,74 @@
+
+
+
+.section-home {
+    max-width: 1300px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.wrapper-home {
+    
+    padding-bottom: 2em;
+}
+
+.wrapper-home header {
+    padding: 2em;
+    padding-bottom: 4em;
+    color: #ccc;
+    text-align: center;
+}
+
+.wrapper-home header h1 {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.conteiner-home {
+    display: flex;
+    gap: 2em;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.conteiner-home .card {
+    display: block;
+    max-width: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 0.3em;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0 0 1em 0 rgba(250, 248, 248, 0.995);
+    padding: 0;
+}
+
+.conteiner-home .card span {
+    display: block;
+}
+
+.car-box .card .media img {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.conteiner-home .card .box-content {
+    text-align: left;
+    padding: 0.7em;
+    font-size: 1em;
+}
+
+.conteiner-home .card .title,
+.conteiner-home .card .desc,
+.conteiner-home .card .foot {
+    padding-inline: 1.2em;
+}
+
+.conteiner-home .card .title {
+    font-weight: bold;
+    font-size: 1.7em;
+    padding-left: 0.6em;
+    padding-bottom: 0.7em;
+}

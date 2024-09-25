@@ -1,0 +1,50 @@
+.nav-div {
+    margin: 0 auto;
+    width: 1005px;
+}
+
+.main-nav-2 ul {
+    display: flex;
+}
+
+.main-nav-2 li {
+    display: block;
+    list-style: none outside;
+    margin: 0;
+}
+
+.main-nav-2 .sells {
+    flex: 0 1 50%;
+}
+
+.main-nav-2 .buys {
+    flex: 0 1 50%;
+}
+
+.main-nav-2 a {
+    display: block;
+    text-decoration: none;
+    padding: 0.5em 2em;
+    font-weight: bold;
+    color: #ccc;
+}
+
+.main-nav-2 a:focus {
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    color: #000;
+}
+
+.main-nav-2 .sells a:hover {
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    color: #000;
+    border-right-color: #000;
+}
+
+.main-nav-2 .buys a:hover {
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    color: #000;
+    border-left-color: #000;
+}

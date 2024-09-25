@@ -1,0 +1,15 @@
+.section-footer {
+    padding: 1em;
+    background-color: #000;
+}
+
+.section-footer p {
+    text-align: center;
+    color: #fff;
+    margin: 1em;
+}
+
+.footer {
+    width: 400px;
+    margin: 0 auto;
+}

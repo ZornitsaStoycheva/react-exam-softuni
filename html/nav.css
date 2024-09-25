@@ -1,0 +1,77 @@
+.header-section {
+    padding: 1em;
+}
+
+.main-nav ul {
+    display: flex;
+}
+
+.main-nav li {
+    display: block;
+    list-style: none outside;
+}
+
+.main-nav a {
+    display: block;
+    text-decoration: none;
+    padding: 0.5em 2em;
+    font-weight: bold;
+    color: #ccc;
+}
+
+.main-nav a:focus {
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    color: #000;
+}
+
+.main-nav a:hover {
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    color: #000;
+}
+
+
+.main-nav .visually {
+    position: absolute;
+    top: 3;
+    color: red;
+
+}
+
+.header-section {
+    max-width: 1850px;
+    margin: 0 auto;
+}
+
+.site-header {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+.site-header .guest {
+    display: flex;
+}
+
+.site-header .user {
+    display: flex;
+}
+
+.site-header .logo a {
+    display: block;
+    text-emphasis: none;
+    color: #ccc;
+    padding: 0.2em 0.5em;
+}
+
+.site-header .logo a:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+.site-header .logo a:focus {
+    background-color: #ccc;
+    color: #000;
+}

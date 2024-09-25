@@ -1,0 +1,90 @@
+.create-section {
+    min-height: 100vh;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.create {
+    flex: 0 1 600px;
+    padding: 2em;
+    border-radius: 0.1em;
+    box-shadow: 0 0 1em 0 rgba(250, 248, 248, 0.995);
+}
+
+.create header {
+    padding-bottom: 2em;
+}
+
+.create header h1 {
+    text-align: center;
+    font-size: 1.2em;
+    color: #ccc;
+}
+
+.create input {
+    display: block;
+    width: 100%;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.create input[type="submit"] {
+    margin-top: 2em;
+    padding: 0.6em;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.create input[type="submit"]:hover {
+    background-color: #fff;
+    color: #000;
+    opacity: 1;
+}
+
+.create .field {
+    display: flex;
+    flex-direction: column;
+    color: #eee;
+    position: relative;
+    margin-top: 2em;
+}
+
+.create .field label {
+    order: -1;
+    position: absolute;
+    line-height: 1;
+    top: -1.2em; left: 0;
+    transition: 
+        transform 0.3s ease-in-out
+}
+
+.create .field input {
+    padding: 0.4em 0;
+    outline: none;
+    color: #ccc;
+}
+
+.create .field input::placeholder {
+    color: transparent;
+}
+
+.create .field input:not(:placeholder-shown) ~ label {
+    transform: translateY(-0.1em);
+    opacity: 1;
+}
+
+.create .field input:focus ~ label {
+    color: #ccc;
+}
+
+.create .field input:required ~ label::after {
+    display: inline-block;
+    content: '*';
+    color: #C00;
+    padding-left: 0.2em;
+}

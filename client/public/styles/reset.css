@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 12px/1.5 Lato, sans-serif;
+}
+
+body {
+    background-color: #000;
+    background-image: url('https://www.zilliondesigns.com/blog/wp-content/uploads/Car-Logo-Designs.jpg');
+    background-position: center -5em;
+    background-size: 1920px auto;
+    background-repeat: no-repeat;
+}
+
+input, select, textarea, button {
+    font: inherit;
+}
+
+h1 { font-size: 2.4em; }
+h2 { font-size: 2.0em; }
+h3 { font-size: 1.8em; }
+h4 { font-size: 1.4em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1em; }
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}

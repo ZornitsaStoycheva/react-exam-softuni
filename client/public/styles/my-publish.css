@@ -1,0 +1,21 @@
+.section .my-publish{
+    max-width: 1300px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.wrapper .my-publish {
+    
+    padding-bottom: 2em;
+}
+
+ul{
+    padding: 2em;
+    display: block;
+}
+
+ul li {
+    display: block;
+    list-style: none;
+    color: #ccc;
+}
